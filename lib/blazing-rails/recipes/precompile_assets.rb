@@ -1,3 +1,5 @@
+require 'blazing/recipe'
+
 class Blazing::Recipe::PrecompileAssets < Blazing::Recipe
 
   def run
