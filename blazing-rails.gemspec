@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency "blazing", '>= 0.2.5'
+  s.add_dependency "blazing", '>= 0.2.9'
   s.add_dependency "httparty"
 end
